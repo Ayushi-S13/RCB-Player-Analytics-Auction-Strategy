@@ -40,8 +40,8 @@ This project was built to assist Royal Challengers Bangalore (RCB) in planning f
 ## 💡 Key Insights
 
 - 💸 Identified 6 all-rounders delivering high ROI – estimated ₹9Cr in auction savings  
-- 🇮🇳 Indian uncapped players outperformed overseas options in value terms  
-- 🔁 RCB’s past squads showed over-reliance on pacers and lacked middle-order depth
+- 🌍 Indian uncapped players outperformed overseas options in value terms  
+- 📉 RCB’s past squads showed over-reliance on pacers and lacked middle-order depth
 
 ---
 
