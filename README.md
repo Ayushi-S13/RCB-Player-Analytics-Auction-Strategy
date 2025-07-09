@@ -1,4 +1,4 @@
-# 🏏 IPL Auction Player-Value Analysis for RCB | MySQL + Power BI
+# 🏏 IPL Auction Player-Value Analysis | SQL + Power BI
 
 This project was created to support Royal Challengers Bangalore (RCB) in planning for the 2017 IPL Mega Auction. Using historical player data, it identified high-performing and undervalued players through SQL-driven analysis and Power BI dashboards.
 
