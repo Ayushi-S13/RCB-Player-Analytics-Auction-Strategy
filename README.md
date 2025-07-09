@@ -1,49 +1,50 @@
-# 🏏 IPL Auction Player-Value Analysis | SQL + Power BI
+# 🏏 IPL Auction Player-Value Analysis | SQL + Power BI Report
 
-This project was created to support **Royal Challengers Bangalore** (RCB) in planning for the 2017 IPL Mega Auction. Using historical player data, it identified high-performing and undervalued players through SQL-driven analysis and Power BI dashboards.
+This project was built to assist Royal Challengers Bangalore (RCB) in planning for the 2017 IPL Mega Auction. Using multi-season IPL data, it identified high-performing players offering better value than their base price. Player statistics were extracted using SQL and visualized using Power BI, then compiled into a summary report.
 
 ---
 
 ## 🎯 Objective
 
-- Rank players across roles based on multi-season performance  
-- Identify undervalued players by comparing auction base price to actual impact  
-- Support smarter auction decisions through performance benchmarking
+- Analyze historical performance data to shortlist reliable, high-impact players  
+- Identify undervalued picks by comparing player impact to auction base price  
+- Provide insights to support cost-effective and balanced auction decisions
 
 ---
 
 ## 🧰 Tools Used
 
-- **MySQL** – for player performance extraction, metrics calculation, and ranking  
-- **Power BI** – for visual exploration and player shortlisting
+- **MySQL** – to join multi-season datasets and compute batting/bowling metrics  
+- **Power BI** – to visually present insights like top performers, strike rates, and value efficiency
 
 ---
 
-## 🔍 SQL Analysis Highlights
+## 🧮 SQL Highlights
 
-- Wrote 15+ queries using joins, filters, and window functions  
-- Calculated batting metrics (e.g., average, strike rate) and bowling metrics (e.g., economy, wickets)  
-- Flagged undervalued players by comparing performance to base price  
-- Created consistency tiers to segment reliable vs. inconsistent players
+- Extracted player-level stats: runs, strike rate, economy rate, wickets taken  
+- Ranked players by performance within roles (batters, bowlers, all-rounders)  
+- Used CASE logic to categorize consistency and pricing segments  
+- Structured data for visual reporting by role and performance tier
 
 ---
 
-## 📊 Power BI Dashboard Features
+## 📊 Visual Report Features
 
-- Filters for role, auction price, and overseas status  
-- Performance sliders to refine shortlist based on key metrics  
-- Role-based player ranking tables and visual comparisons
+- Charts for top scorers and wicket takers  
+- Strike rate vs. runs and economy vs. wickets scatter plots  
+- Filters for season, player role, and location (home vs. away)  
+- Timeline of RCB’s win/loss trend across IPL seasons
 
 ---
 
 ## 💡 Key Insights
 
-- 💸 Identified 6 all-rounders delivering higher value than their auction price — potential savings of ₹9Cr  
-- 🏏 Found uncapped Indian players outperforming foreign players in efficiency metrics  
-- 📉 RCB’s previous squad over-invested in pacers — lacked reliable middle-order batting depth
+- 💸 Identified 6 all-rounders delivering high ROI – estimated ₹9Cr in auction savings  
+- 🇮🇳 Indian uncapped players outperformed overseas options in value terms  
+- 🔁 RCB’s past squads showed over-reliance on pacers and lacked middle-order depth
 
 ---
 
 ## ✅ Outcome
 
-A clean and interactive decision-support tool for auction strategy, balancing player impact with auction price constraints.
+Delivered a Power BI-backed player evaluation report that combined SQL logic with cricket-specific domain filtering. It supported auction planning with a shortlist of high-value players under realistic budget constraints.
